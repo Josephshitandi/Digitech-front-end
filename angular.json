@@ -119,6 +119,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "Digitech-front-end"
+    }
+  },
+  "defaultProject": "Digitech-front-end",
+  "cli": {
+    "analytics": "75214e72-3046-4265-be0d-bdd33b57ac4c"
+  }
+  
 }

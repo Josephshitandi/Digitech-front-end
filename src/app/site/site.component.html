@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row">
+  
+      <div class="col-md-4" *ngFor="let site of sites">
+        <div class="card-deck">
+          <div class="card mb-2 mt-2 ">
+            <!-- Card image -->
+            <div class="view overlay zoom image2">
+              <a class="nav-link" routerLink="/review">
+                <img class="card-img-top" src="https://res.cloudinary.com/shitandi/{{site.image}}" alt="site_image"
+                  height="300px" width="320">
+              </a>
+            </div>
+  
+            <div class="card-body pr-2 pl-2 pr-2 mr-2">
+              <h5 class="card-title ml-4">{{site.name}}</h5>
+              <div class="row">
+                <div class="col-sm">
+                  <p>Location</p>
+                </div>
+                <div class="col-sm">
+                  <p>{{site.location}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
